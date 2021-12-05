@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "employee-management": {
+    "angular-employee-management": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/employee-management",
+            "outputPath": "dist/angular-employee-management",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -73,18 +73,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "employee-management:build"
+            "browserTarget": "angular-employee-management:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "employee-management:build:production"
+              "browserTarget": "angular-employee-management:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "employee-management:build"
+            "browserTarget": "angular-employee-management:build"
           }
         },
         "test": {
@@ -121,15 +121,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "employee-management:serve"
+            "devServerTarget": "angular-employee-management:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "employee-management:serve:production"
+              "devServerTarget": "angular-employee-management:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "employee-management"
+  "defaultProject": "angular-employee-management"
 }
