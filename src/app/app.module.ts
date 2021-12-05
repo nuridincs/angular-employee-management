@@ -14,12 +14,16 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 import { NgSelectModule } from '@ng-select/ng-select';
 import { HttpClientModule } from '@angular/common/http';
+import { FormComponent } from './employee/form/form.component';
+import { DetailComponent } from './employee/detail/detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeComponent,
-    LoginComponent
+    LoginComponent,
+    FormComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
