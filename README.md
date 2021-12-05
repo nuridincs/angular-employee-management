@@ -1,5 +1,8 @@
 # angular-employee-management
 
+## Demo
+
+https://angular-employee-management.netlify.app/
 
 ## Usage
 * clone repo https://github.com/nuridincs/angular-employee-management.git
