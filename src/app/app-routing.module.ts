@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { LoginComponent, EmployeeComponent } from './utils/index.pages';
+import { LoginComponent, EmployeeComponent, FormComponent, DetailComponent } from './utils/index.pages';
 
 const routes: Routes = [
   {
@@ -11,6 +11,14 @@ const routes: Routes = [
   {
     path: 'employee',
     component: EmployeeComponent
+  },
+  {
+    path: 'employee/form',
+    component: FormComponent
+  },
+  {
+    path: 'employee/detail/:id',
+    component: DetailComponent
   }
 ];
 

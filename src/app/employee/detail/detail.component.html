@@ -1,0 +1,47 @@
+<!-- <nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand font-weight-bold">Employee Management</a>
+</nav> -->
+<div class="container py-5">
+  <h4 class="mb-4">Detail Employee</h4>
+  <div>
+    <div class="row">
+      <div class="col">Username</div>
+      <div class="col">{{ employeeDetail.username }}</div>
+    </div>
+    <div class="row">
+      <div class="col">Firtsname</div>
+      <div class="col">{{ employeeDetail.firstName }}</div>
+    </div>
+    <div class="row">
+      <div class="col">Lastname</div>
+      <div class="col">{{ employeeDetail.lastName }}</div>
+    </div>
+    <div class="row">
+      <div class="col">Email</div>
+      <div class="col">{{ employeeDetail.email }}</div>
+    </div>
+    <div class="row">
+      <div class="col">Basic Salary</div>
+      <div class="col">{{ employeeDetail.basicSalary | currency:'IDR' }}</div>
+    </div>
+    <div class="row">
+      <div class="col">status</div>
+      <div class="col">{{ employeeDetail.status }}</div>
+    </div>
+    <div class="row">
+      <div class="col">Birthday</div>
+      <div class="col">{{ employeeDetail.birthDate }}</div>
+    </div>
+    <div class="row">
+      <div class="col">Group</div>
+      <div class="col">{{ employeeDetail.group }}</div>
+    </div>
+    <div class="row">
+      <div class="col">Description</div>
+      <div class="col">{{ employeeDetail.description }}</div>
+    </div>
+  </div>
+  <div class="py-4">
+    <button type="submit" class="btn btn-danger btn-block" (click)="back()">OK</button>
+  </div>
+</div>
