@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "username":"demo1",
+    "firstName":"demo",
+    "lastName":"test",
+    "email":"demo1.test@gmail.com",
+    "birthDate":"1995-01-01",
+    "basicSalary":"2000000",
+    "status":"single",
+    "group":"test",
+    "description":"2020-04-15"
+  },
+  {
+    "id": "2",
+    "username":"demo2",
+    "firstName":"demo",
+    "lastName":"test",
+    "email":"demo2.test@gmail.com",
+    "birthDate":"1995-01-01",
+    "basicSalary":"2000000",
+    "status":"single",
+    "group":"test",
+    "description":"2020-04-15"
+  },
+  {
+    "id": "3",
+    "username":"demo3",
+    "firstName":"demo",
+    "lastName":"test",
+    "email":"demo3.test@gmail.com",
+    "birthDate":"1995-01-01",
+    "basicSalary":"2000000",
+    "status":"single",
+    "group":"test",
+    "description":"2020-04-15"
+  },
+  {
+    "id": "4",
+    "username":"demo4",
+    "firstName":"demo",
+    "lastName":"test",
+    "email":"demo4.test@gmail.com",
+    "birthDate":"1995-01-01",
+    "basicSalary":"2000000",
+    "status":"single",
+    "group":"test",
+    "description":"2020-04-15"
+  },
+  {
+    "id": "5",
+    "username":"demo5",
+    "firstName":"demo",
+    "lastName":"test",
+    "email":"demo5.test@gmail.com",
+    "birthDate":"1995-01-01",
+    "basicSalary":"2000000",
+    "status":"single",
+    "group":"test",
+    "description":"2020-04-15"
+  },
+  {
+    "id": "6",
+    "username":"demo6",
+    "firstName":"demo",
+    "lastName":"test",
+    "email":"demo6.test@gmail.com",
+    "birthDate":"1995-01-01",
+    "basicSalary":"2000000",
+    "status":"single",
+    "group":"test",
+    "description":"2020-04-15"
+  }
+]
